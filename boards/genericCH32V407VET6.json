@@ -11,7 +11,7 @@
       ]
     ],
     "mabi": "ilp32",
-    "march": "rv32imacxw",
+    "march": "rv32imac_zve64x_zvbb_xw",
     "mcu": "ch32v407vet6",
     "series": "ch32v4x7",
     "spl_series": "ch32v4x7",

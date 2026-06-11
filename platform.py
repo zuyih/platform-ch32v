@@ -27,7 +27,7 @@ class Ch32vPlatform(PlatformBase):
         "windows_x86": "https://github.com/Community-PIO-CH32V/toolchain-riscv-windows.git",
         # No Windows ARM64 or ARM32 builds.
         # Linux
-        "linux_x86_64": "https://github.com/Community-PIO-CH32V/toolchain-riscv-linux.git",
+        "linux_x86_64": "https://github.com/zuyih/toolchain-riscv-linux.git",
         #"linux_i686": "",
         #"linux_aarch64": "",
         #"linux_armv7l": "",
@@ -83,7 +83,7 @@ class Ch32vPlatform(PlatformBase):
         # until toolchain is not yet approved in PIO registry: redirect packages at will here
         # (temporary)
         frameworks = variables.get("pioframework", [])
-        gcc_branch = "#gcc12"
+        gcc_branch = "#gcc15"
         # TODO make this user selectible
         # some users may have build errors with GCC12.
         FORCE_DOWNGRADE_TO_GCC8 = False
